@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+.App {
+  font-family: "Langar", cursive;
+  text-align: center;
+}
+
+body {
+  /* background-image: linear-gradient(#48c9b0, #19338a); */
+  background: black;
+  color: white;
+  margin: 0px;
+}
+.ButtonCat {
+  padding: 0.5rem;
+  margin: 20px;
+  border: 5px solid #48c9b0;
+  border-radius: 0.5rem;
+  background: black;
+  color: #48c9b0;
+  font-size: 30px;
+  width: 250px;
+  font-weight: bolder;
+}
+.ButtonCat:hover {
+  border: 5px solid black;
+  background: white;
+}
+nav {
+  background-image: linear-gradient(purple, blue);
+  margin: 0px;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+h1 {
+  font-size: 35px;
+}
+p {
+  font-size: 25px;
+}
+.List {
+  padding: 1rem;
+}
+.Lstitem {
+  background: #00141e;
+  border-radius: 0.5rem;
+}
+.dash {
+  background: black;
+}
+.MusicName {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1e8449;
+}
+.MusicArtist {
+  font-size: 20px;
+  font-weight: bold;
+  color: #5dade2;
+}
+.Rating {
+  color: yellow;
+}
+.link {
+  color: #48c9b0;
+  /* background: #48c9b0; */
+}
+.link:hover {
+  color: white;
+}
+.img {
+  width: 20%;
+  height: 20vh;
+}
